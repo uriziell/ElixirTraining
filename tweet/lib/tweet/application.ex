@@ -9,7 +9,7 @@ defmodule Tweet.Application do
     # List all child processes to be supervised
     children = [
       # Starts a worker by calling: Tweet.Worker.start_link(arg)
-      # {Tweet.Worker, arg},
+       { Tweet.TweetServer, :ok }
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
