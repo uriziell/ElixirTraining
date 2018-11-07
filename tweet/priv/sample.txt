@@ -1,4 +1,10 @@
 Line 1
 Line 2
 Third Line
+Hello Twitter
+Example Text For Elixir App
+Other Example Text
+Next Example Text
+Short Text
+Long Text
 Test string More thab 140 characters jdsodk sojd oif 'ojd idha fiohfa;dfkhu hfiduhf  asdifhau  fsedfhu hfsidu fdjsjafauf  dfjadfh klfdlj fdigh dfjaoidf j  dfjdijf akdjfaoidsfj ad jfoadsijf  djifo jaf aojfd oiajf dojf aoijdfdofaisj oasdifj 
