@@ -14,7 +14,7 @@ defmodule Tweet.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :quantum],
+      extra_applications: [:logger, :quantum, :extwitter],
       mod: {Tweet.Application, []}
     ]
   end
@@ -23,7 +23,9 @@ defmodule Tweet.MixProject do
   defp deps do
     [
       {:credo, "~> 0.4.11"},
-      {:quantum, "~>1.8"}
+      {:quantum, "~>1.8"},
+      {:oauther, "~> 1.1"},
+      {:extwitter, "~> 0.9.3"}
     ]
   end
 end
